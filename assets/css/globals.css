@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik&display=swap');
+:root{
+    --heading: 'Poppins', sans serif, bold;
+    --paragraph:'Rubik', sans serif, regular;
+    --royalBlue: #00A7D4;
+    --carnation:#FF5D53;
+    --java:#22D6A0;
+    --background: #F2F2F2;
+    --text: #F1F1F1;
+    --black: #1B1B1B;
+    --gray: #636364;
+    --blue:#244fa0;
+    --gray-light: #cacaca;
+}
+.container .header .navegacion li a.active{
+    color: var(--carnation);
+}
+.container .header .menu.d-none{
+    display: none;
+}
+.btn:active{
+    outline: none !important;
+}

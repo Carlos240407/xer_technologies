@@ -1,0 +1,375 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+}
+.main-content{
+    background-color: var(--royalBlue);
+}
+.container-fluid .navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* ----------------- Main --------------- */
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.main .left h1{
+    font-family: var(--heading);
+    font-size: 18px;
+}
+.main .left .btn{
+    background-color: var(--carnation);
+    color: var(--text);
+    font-family: var(--heading);
+    font-size: 12px;
+    width: 120px;
+    transition: .3s;
+}
+.main .left .btn:hover{
+    background-color: var(--text);
+    color: var(--carnation);
+}
+.main .left p{
+    font-family: var(--paragraph);
+    color: #cacaca;
+    font-size: 12px;
+    width: 260px;
+}
+.main .right img{
+    width: 250px;
+    height: 400px;
+}
+/* ---------------- End Main ------------------ */
+
+/* ----------------- Start Cards ------------------ */
+.cards-section .cards{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+    justify-content: center;
+}
+.cards-section .cards-content h3{
+    background-color: var(--gray-light);
+    color: var(--carnation);
+    border-radius: 20px;
+    width: 200px;
+    margin: 10px auto;
+    font-size: 12px;
+    padding: 10px 5px;
+    font-family: var(--heading);
+}
+.cards-section .cards-content h2{
+    font-family: var(--heading);
+    color: var(--blue);
+    font-size: 18px;
+}
+.cards-section .cards-content > p{
+    width: 230px;
+    margin: 10px auto;
+    font-size: 12px;
+    color: var(--gray-light);
+    font-family: var(--paragraph);
+}
+.cards-section .cards .card{
+    width: 200px;
+    height: 200px;
+    padding: 2rem 10px;
+}
+.cards-section .cards .card i{
+    font-size: 30px;
+    color: var(--gray-light);
+    margin: 10px auto;
+}
+.cards-section .cards .card h6{
+    font-size: 15px;
+    color: var(--blue);
+    font-family: var(--heading);
+}
+.cards-section .cards .card p{
+    font-family: var(--paragraph);
+    color: var(--gray-light);
+    font-size: 13px;
+}
+/* ------------------ End Cards---------------- */
+
+/* ----------------- Start Projects ------------------- */
+.makers .projects .card-projects{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.makers .projects .card-projects .project{
+    width: 300px;
+    padding: 2rem 20px;
+}
+.makers .projects .card-projects .project .btn{
+    width: 150px;
+    margin: 10px auto;
+    font-family: var(--paragraph);
+    font-size: 14px;
+    transition: .3s ease-in;
+    border: solid 3px var(--gray-light);
+}
+.makers .projects .card-projects .project .btn:hover{
+    background-color: var(--carnation);
+    border-color: var(--carnation);
+}
+/* ----------------- End Projects ------------------- */
+
+/* -------------------- Start Why Us --------------------- */
+.why-us{
+    color: var(--text);
+    height: 100%;
+}
+.why-us .why-us-content h2{
+    font-family: var(--heading);
+}
+.why-us .why-us-content span{
+    color: var(--carnation );
+}
+.why-us .why-us-content .cards-content{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.why-us .why-us-content .cards-content .reasons{
+    width: 200px;
+    padding: 1rem 10px;
+    margin: 20px 10px;
+}
+.why-us .why-us-content .cards-content .reasons div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px auto;
+}
+.why-us .why-us-content .cards-content .reasons:nth-last-child(4) div{
+    background-color: #e0f6fb;
+    color: #00a4d7;
+}
+.why-us .why-us-content .cards-content .reasons:nth-last-child(3) div{
+    background-color: #ecf9f4;
+    color: #18d865;
+}
+.why-us .why-us-content .cards-content .reasons:nth-last-child(2) div{
+    background-color: #fef0e5;
+    color: #f6a55a;
+}
+.why-us .why-us-content .cards-content .reasons:nth-last-child(1) div{
+    background-color: #feeeee;
+    color: #ff5d52;
+}
+.why-us .why-us-content .cards-content .reasons h6{
+    color: var(--blue);
+    font-family: var(--heading);
+    font-size: 14px;
+}
+.why-us .why-us-content .cards-content .reasons p{
+    color: var(--gray-light);
+    font-family: var(--paragraph);
+    font-size: 13px;
+}
+/* --------------------- End Why Us --------------------------- */
+
+/* ----------------------- Start Card Members -------------------- */
+.members-team .xer-members .card-member{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.members-team .xer-members .card-member .member{
+    margin: 20px ;
+    height: 300px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.members-team .xer-members .card-member .member div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.members-team .xer-members .card-member .member h4{
+    font-family: var(--heading);
+    font-size: 14px;
+    color: var(--blue);
+    margin: 20px auto 5px ;
+}
+.members-team .xer-members .card-member .member h6{
+    color: var(--gray-light);
+    font-family: var(--heading);
+    font-size: 12px;
+}
+.members-team .xer-members .card-member .member p{
+    font-family: var(--paragraph);
+    font-size: 12px;
+    color: var(--gray-light);
+    width: 150px;
+    margin: inherit auto;
+}
+.members-team .xer-members .card-member .member .social-links a{
+    margin: 5px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--text);
+    padding: 5px 8px;
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+}
+.members-team .xer-members .card-member .member .social-links a:nth-last-child(4) i{
+    color: #0061fd;
+}
+.members-team .xer-members .card-member .member .social-links a:nth-last-child(3) i{
+    color: #f28eb5;
+}
+.members-team .xer-members .card-member .member .social-links a:nth-last-child(2) i{
+    color: #0f7ee6;
+}
+.members-team .xer-members .card-member .member .social-links a:nth-last-child(1) i{
+    color: #0a61b3;
+}
+/* ------------------------ End Card Members ----------------------- */
+
+/* ------------------------ Start Call Action ----------------------- */
+.call-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(18deg, var(--blue), var(--royalBlue));
+    color: var(--text);
+}
+.call-action .actions{
+    line-height: 50px;
+}
+.call-action .actions .btn{
+    border: solid 2px var(--text);
+    width: 150px;
+    transition: .3s;
+    color: var(--gray-light);
+    border-radius: 20px;
+}
+.call-action .actions .btn:hover{
+    transform: translateY(-5px);
+    background-color: var(--carnation);
+    color: var(--text);
+    border-color: var(--carnation);
+}
+/* ------------------------ End Call Action ----------------------- */
+
+/* -------------------------- Start Footer ------------------------- */
+.footer .footer-content{
+    text-align: center;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    position: relative;
+}
+.footer .footer-content::before{
+    content: "";
+    position: absolute;
+    height: .50px;
+    width: 90%;
+    background-color: var(--gray-light);
+    bottom: 10px;
+    left: 60px;
+}
+.footer .footer-content .block img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footer .footer-content .block h6{
+    color: var(--blue);
+    font-family: var(--heading);
+    font-size: 14px;
+}
+.footer .footer-content .block .link a{
+    color: var(--text);
+    font-family: var(--paragraph);
+    text-decoration: none;
+    transition: .5s;
+    position: relative;
+}
+.footer .footer-content .block .link a:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--carnation);
+    bottom: -3px;
+
+}
+.footer .footer-content .block1{
+    width: 300px;
+}
+.footer .footer-content .block1 p{
+    width: 200px;
+    margin: 20px auto;
+}
+.end-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.end-footer .copyright p{
+    color: var(--text);
+    font-family: var(--paragraph);
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.end-footer .copyright a{
+    color: var(--blue);
+    text-decoration: none;
+    transition: .3s;
+}
+.end-footer .copyright a:hover{
+    color: var(--carnation);
+}
+.end-footer .social-links a{
+    margin: auto 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 1.5px var(--text);
+    padding: 4px 6px;
+    font-size: 13px;
+    color: var(--blue);
+    transition: .3s;
+}
+.end-footer .social-links a:hover{
+    color: var(--text);
+    background-color: var(--blue);
+    border-color: transparent;
+}
+/* -------------------------- End Footer ------------------------- */

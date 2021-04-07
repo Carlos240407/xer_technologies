@@ -1,0 +1,109 @@
+/* ------------------------- Extra Small ----------------- */
+@media only screen and (max-width: 600px){
+    .main{
+        grid-template-columns: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .main .left p{
+        font-size: 12px;
+    }
+    .main .right img{
+        width: 200px;
+        height: 220px;
+    }
+
+    /* ----------------- Cards ------------------ */
+    .cards-section{
+        margin-top: 30px;
+    }
+    .cards-section .cards{
+        grid-template-columns: auto;
+    }
+    /* ------------------ End Cards ------------- */
+
+    /* --------------- Makers ---------------- */
+    .makers .projects .card-projects{
+        grid-template-columns: auto;
+    }
+    .makers .projects .card-projects .project {
+        width: 250px;
+        padding: 2rem 20px;
+    }
+    .why-us .why-us-content .cards-content .reasons {
+        width: 250px;
+        padding: 1rem 10px;
+        margin: 10px 10px;
+    }
+    /* ---------------- End Makers ---------------- */
+
+    /* ------------------- Members Team ----------------- */
+    .members-team .xer-members .card-member .member .social-links a{
+        width: 16px;
+        height: 16px;
+        font-size: 14px;
+        margin: 5px 5px;
+    }
+    /* ------------------ End Members Team --------------------- */
+
+    /* -------------------- Call Action ------------------------ */
+    .call-action .actions h1{
+        font-size: 16px;
+    }
+    .call-action .actions .btn{
+        position: relative;
+        top: 20px;
+        max-width: calc(120px - 10px);
+    }
+    /* --------------------- End Call Action ---------------------- */
+
+    /* ------------------------ Footer ------------------------ */
+    .footer .footer-content{
+        grid-template-columns: auto;
+    }
+    .footer .footer-content::before{
+        left: 15px;
+    }
+    .end-footer .copyright p{
+        top: 0;
+    }
+    .end-footer{
+        flex-wrap: wrap;
+    }
+    .end-footer .social-links{
+        position: relative;
+        bottom: 10px;
+    }
+
+  
+    /* ------------------------ End Footer ------------------------ */
+}
+/* ------------------------- End Extra Small ----------------- */
+
+/*  -------------------------- Tablets -----------------------*/
+@media only screen and (min-width: 600px) {
+
+}
+/*  -------------------------- End Tablets -----------------------*/
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+     
+ }
+/* ---------------------------- End Big Devices ----------------------- */
+
+
+ /* Extra small devices (phones, 600px and down) */
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px){
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px){
+
+ } 
